@@ -8,4 +8,4 @@ RUN docker-php-ext-install pcntl pdo pdo_pgsql sockets bcmath && pecl install am
 
 RUN wget https://getcomposer.org/composer.phar && mv composer.phar /usr/bin/composer && chmod +x /usr/bin/composer
 
-EXPOSE 9001
+EXPOSE 9000
